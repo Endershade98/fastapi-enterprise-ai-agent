@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: enterprise-ai-agent
+Version: 0.1.0
+Summary: Enterprise AI Agent & LLMOps Gateway
+Requires-Python: >=3.13
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: httpx; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
