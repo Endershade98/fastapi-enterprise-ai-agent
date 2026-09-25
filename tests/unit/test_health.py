@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 
-from enterprise_ai.interfaces.api.main import app
+from enterprise_ai_agent.interfaces.api.main import app
 
 client = TestClient(app)
 
